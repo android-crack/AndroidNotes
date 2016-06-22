@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\repo\Dagger2Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="F:\repo\Dagger2Sample\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1_c4390a21015ddfb640bf308f4cb0acc999cf36ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.annotation\10.0-b28\30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba\javax.annotation-10.0-b28.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba">
+        <dex dex="F:\repo\Dagger2Sample\app\build\intermediates\pre-dexed\debug\javax.annotation-10.0-b28_0537ac66f5c16b0c323fe65159e843bc0103a062.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="F:\repo\Dagger2Sample\app\build\intermediates\pre-dexed\debug\javax.inject-1_273da2ba53aedc2691b5c6c4485ebe7b12b6e634.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.0\da7ba0ee1d30edd955da276cdf01d3d7cb24aedc\dagger-2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="da7ba0ee1d30edd955da276cdf01d3d7cb24aedc">
+        <dex dex="F:\repo\Dagger2Sample\app\build\intermediates\pre-dexed\debug\dagger-2.0_a4e855d4bfae3695847fa452110add656ca7e309.jar" />
+    </item>
+    <item
+        jar="D:\android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="F:\repo\Dagger2Sample\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1_8069db44928e12fca524fdd4ae0c59114f1b6250.jar" />
+    </item>
+    <item
+        jar="F:\repo\Dagger2Sample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="F:\repo\Dagger2Sample\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.1.1_edc84d261682d9917589509e2f9a1aa6a39b495d.jar" />
+    </item>
+    <item
+        jar="F:\repo\Dagger2Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="F:\repo\Dagger2Sample\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.1.1_77acfb1f14b9e32ade1e5a88c28e57d797f02a72.jar" />
+    </item>
+
+</items>
