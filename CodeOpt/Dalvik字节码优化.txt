@@ -1,0 +1,6 @@
+字节码优化不会带来太大的压缩包缩小，但是可以作为一种编程规范；
+1.赋值冗余
+	public static String A = null； ==》 public static String A；
+	类加载的准备阶段会设置初始零值，没必要多一个赋值行为；
+	优化对象：《类变量、成员变量》
+2.调整interface到class，减少实现接口造成的空方法；
