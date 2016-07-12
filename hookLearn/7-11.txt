@@ -1,0 +1,57 @@
+7-11
+	1.Android java虚拟机Dalivik学习；
+		Class/dex/odex文件结构；
+		字节码执行大致过程、protable纯解释执行
+		Dalvik虚拟机启动；
+			Android第一个虚拟机通过app_process进程启动（Zygote）
+				App_main.cpp--main
+					AndroidRuntime--start
+						jni_invocation.Init:加载libvm.so
+						startVm
+							JNI_CreateJavaVM、dvmStartup(dvmThreadStartup/dvmInlineNativeStartup/
+							dvmClassStartup/dvmFindRequiredClassesAndMembers)、
+						startReg
+		Class的加载和初始化
+			new-instance
+				dvmResolveClass
+				dvmInitClass(中间执行所加载类的<clinit>)
+		Java函数RUN
+			allocThread分析
+				dalvik默认栈帧16K
+			dvmCallMethod
+				->dvmCallMethodV(callPrep栈帧准备：JNI方法dvmPushJNIFrame/Java方法dvmPushInterFrame)
+		JNI相关
+			so加载和JNI函数注册
+				so文件搜索路径和so加载
+					so之于Linux等同于dll之于Windows;Android中使用JNI，native函数
+					必须封装在so文件内
+				JNI函数主动注册和被动注册
+					调用Registernatives主动注册JNI函数；
+					被动注册，VM按照一定规范查找native函数实现
+			调用Java native函数
+	2.JNI基础
+		动态注册JNI函数；
+		数据类型转换；
+		JNIEnv相关；
+			JNI环境结构体；
+			JNIEnv操作jobject
+				jfieldID和jmethodID。
+				GetFieldID和GetMethodID
+			GC
+				jobject对象的JNI层引用不会增加引用计数，
+				Local Reference、Global Reference.
+
+	3.Android/Linux 进程注入
+		ptrace函数
+		
+		ATTATCH，指定目标进程，开始调试；
+		GETREGS，获取目标进程的寄存器，保存现场；
+		SETREGS，修改PC等相关寄存器，使其指向mmap；
+		POPETEXT，把so path写入mmap申请的地址空间；
+		SETRESG，修改PC等相关寄存器，使其指向dlopen；
+		SETREGS，恢复现场；
+		DETACH，解除调试，使其恢复；
+
+
+
+	
